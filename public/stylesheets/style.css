@@ -10,18 +10,22 @@ a {
 
 .header {
   display: grid; 
-  grid-template-columns: auto auto;
+  /* grid-template-columns: auto auto; */
+  grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
   text-align: center;
+  
 }
 
 .header .title {
   /* line-height: 165px; */
   text-align: left;
+  background-size: cover;
   grid-column-start: 1;
   grid-column-end: 2;
 }
 
 .header .yang {
+  background-size: cover;
   grid-column-start: 2;
   grid-column-end: 3;
 }
