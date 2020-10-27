@@ -1,0 +1,47 @@
+body {
+    padding: 25px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  }
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font: 12pt "Lucida Grande", Helvetica, Arial, sans-serif;
+  }
+  
+.links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -webkit-align-items: center;
+    align-content: center;
+}
+
+.links > div {
+    display: flex;
+    width: 125pt;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: orange;
+}
+
+.link > p {
+    text-align: center;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: none;
+}
+
+.links a:visited {
+    text-decoration: none;
+}
