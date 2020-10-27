@@ -1,2 +1,3 @@
-# yangvids
-yangvids is a website that hosts all the yang videos that will get yang elected.
+# IsYangLegit?
+IsYangLegit is a website that hosts scholarly articles, research, and data supporting Andrew Yang's ideas.
+
